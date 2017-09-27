@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #FFF;
   font-family: "Permanent Marker";
-  background-image: url("../images/DSC_0071.JPG");
+  background-image: url("../images/background_image.jpg");
 }
 
 h1 {
@@ -16,7 +16,8 @@ h1 {
 .bday_image_container {
   overflow: hidden;
   margin: auto;
-  width:90%
+  width:90%;
+  border-radius: 30px;
 }
 
 .bday_image_tile {
