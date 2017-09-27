@@ -24,7 +24,7 @@ h1 {
 .bdaY_image_column {
   width: 300px;
   min-width: 150px;
-  max-width: 500px;
+  max-width: 350px;
   padding: 5px;
   display: table-cell;
 }
