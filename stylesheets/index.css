@@ -23,21 +23,27 @@ h1 {
   width: 33.3%;
   padding-bottom: 33.3%;
   background: #FFFFFF;
-  text-align: center;
 }
 
 .bday_image {
   position: absolute;
   left: 10px;
   right: 10px;
-  top: 10%;
-  bottom: 10%;
+  top: 10px;
+  bottom: 10px;
   overflow: hidden;
 }
 
 .bday_image img {
   max-height: 100%;
   max-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  
 }
 
 @media only screen and (max-width : 480px) {
