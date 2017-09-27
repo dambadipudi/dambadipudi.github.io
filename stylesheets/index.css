@@ -16,7 +16,7 @@ h1 {
   color: lightgrey;
 }
 
-.bday_image_container {
+.bday_image_container, .bday_image_header {
   overflow: hidden;
   margin: auto;
   width:90%;
@@ -25,17 +25,18 @@ h1 {
 }
 
 .bday_image_header {
-    position: relative;
-    width: 100%;
-    background: #FFFFFF;
+  background: lightgrey;
+  margin-bottom: 10px;
 }
 
 .bday_image_header h3{
     float: left;
+    margind-left: 20px;
 }
 
 .bday_image_header h4{
     float: right;
+    margin-right: 20px;
 }
 
 .bday_image_tile {
