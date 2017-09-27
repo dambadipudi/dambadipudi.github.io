@@ -27,6 +27,8 @@ h1 {
   max-width: 350px;
   padding: 5px;
   display: table-cell;
+  text-align: center;
+  vertical-align: center;
 }
 
 .bday_image {
