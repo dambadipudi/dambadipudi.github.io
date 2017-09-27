@@ -3,9 +3,9 @@ body {
   padding: 0;
   background: #FFF;
   font-family: "Permanent Marker";
-  color: lightgrey;
   background-image: url("../images/background_tile.jpg");
   background-repeat:repeat;
+  color: black;
 }
 
 h1 {
@@ -13,6 +13,7 @@ h1 {
   width: 100%;
   text-align: center;
   padding: 20px;
+  color: lightgrey;
 }
 
 .bday_image_container {
@@ -20,6 +21,21 @@ h1 {
   margin: auto;
   width:90%;
   border-radius: 30px;
+  background: white;
+}
+
+.bday_image_header {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.bday_image_header h3{
+    float: left;
+}
+
+.bday_image_header h4{
+    float: right;
 }
 
 .bday_image_tile {
@@ -27,7 +43,7 @@ h1 {
   position: relative;
   width: 33.3%;
   padding-bottom: 33.3%;
-  background: #FFFFFF;
+  background: white;
 }
 
 .bday_image {
