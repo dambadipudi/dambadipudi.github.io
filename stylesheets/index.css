@@ -3,7 +3,9 @@ body {
   padding: 0;
   background: #FFF;
   font-family: "Permanent Marker";
-  background-image: url("../images/background_image.jpg");
+  color: lightgrey;
+  background-image: url("../images/background_tile.jpg");
+  background-repeat:repeat;
 }
 
 h1 {
