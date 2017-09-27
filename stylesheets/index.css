@@ -1,9 +1,9 @@
-#music_div {
+h1 {
   margin: 0 auto;
-  max-width: 100%;
-  width:auto;
-  height:auto;
- }
+  width: 100%;
+  text-align: center;
+  font-family: "Almendra SC";
+}
 
 .bday_container {
   margin: 0 auto;
@@ -25,3 +25,11 @@
   max-width: 100%;
   max-height: 100%;
 }
+
+#music_div {
+  margin: 0 auto;
+  max-width: 100%;
+  width:auto;
+  height:auto;
+ }
+
