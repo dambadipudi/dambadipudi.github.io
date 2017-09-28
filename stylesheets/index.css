@@ -76,7 +76,7 @@ h1 {
 
 @media only screen and (max-width : 480px) {
    /* Smartphone view: 1 tile */
-   .bday_image_tile {
+   .tile {
       width: 100%;
       padding-bottom: 100%;
    }
@@ -84,7 +84,7 @@ h1 {
 
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view: 2 tiles */
-   .bday_image_tile {
+   .tile {
       width: 50%;
       padding-bottom: 50%;
    }
