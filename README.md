@@ -1,2 +1,2 @@
-# dambadipudi.github.io
-My Resume
+# Welcome to my [portfolio](https://dambadipudi.github.io/)
+
