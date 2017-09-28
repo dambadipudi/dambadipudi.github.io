@@ -56,7 +56,7 @@ h1 {
   overflow: hidden;
 }
 
-.content img {
+.content img, span {
   max-height: 100%;
   max-width: 100%;
   position: absolute;
@@ -71,12 +71,6 @@ h1 {
   background: rgb(0,0,0); /*In case rgba doesn't work */
   background: rgba(0,0,0,0.5);
   color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto; 
 }
 
 @media only screen and (max-width : 480px) {
