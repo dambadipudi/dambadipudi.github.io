@@ -72,6 +72,7 @@ h1 {
   background: rgb(0,0,0); /*In case rgba doesn't work */
   background: rgba(0,0,0,0.5);
   color: white;
+  z-index: 2;
 }
 
 @media only screen and (max-width : 480px) {
