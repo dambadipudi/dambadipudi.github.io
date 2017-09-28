@@ -25,6 +25,11 @@ h1 {
   margin-bottom: 50px;
 }
 
+.container video {
+    max-width: 100%;
+    height: auto;
+}
+
 .header {
   background: grey;
   margin-bottom: 10px;
