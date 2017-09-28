@@ -57,7 +57,7 @@ h1 {
   text-align: center;
 }
 
-.content img, span {
+.content img, p, span {
   max-height: 100%;
   max-width: 100%;
   position: absolute;
@@ -68,11 +68,16 @@ h1 {
   margin: auto;
 }
 
-.content span {
+.content p {
   background: rgb(0,0,0); /*In case rgba doesn't work */
   background: rgba(0,0,0,0.5);
   color: white;
+}
+
+.content span {
+  position: absolute;
   z-index: 2;
+  top: 5px;
 }
 
 @media only screen and (max-width : 480px) {
