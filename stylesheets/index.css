@@ -68,8 +68,8 @@ h1 {
 }
 
 .content span {
-  background: rgba(0,0,0,0.5);
   background: rgb(0,0,0); /*In case rgba doesn't work */
+  background: rgba(0,0,0,0.5);
   color: white;
   position: absolute;
   left: 0;
